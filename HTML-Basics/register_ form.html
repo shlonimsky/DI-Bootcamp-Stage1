@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+<body>
+    <form method="get">
+       <div>First name: <input type="text" name="first_name"></div> 
+
+       <div>Last name: <input type="text" name="last_name"></div>  
+
+       <div>Email: <input type="email" name="email" required></div>
+
+       <div>Password: <input type="password" minlength="5" name="password"> </div>
+
+       <div>Birthday: <input type="date" name="birthday"></div>
+
+       <div>Gender: <br>
+        <input type="radio" name="gender" value="male">Male <br>
+        <input type="radio" name="gender" value="female">Female <br>
+        <input type="radio" name="gender" value="other">Other
+        </div>
+
+        <div>Pets:<br>
+        <input type="checkbox" name="cats">Cats <br>
+        <input type="checkbox" name="dogs">Dogs
+        </div>
+
+        <div>Cars: <br>
+            <select name="cars">
+            <option value="Volvo">Volvo</option>
+            <option value="Audi">Audi</option>
+            <option value="BMW">BMW</option>
+            </select>
+        </div> <br>
+
+       <input type="Submit" value="Register!">
+       <input type="Reset">
+
+    </form>
+</body>
+</html>
+?
+first_name=nata
+&last_name=bud
+&email=qwerty%40gfd.hf
+&password=12345
+&birthday=2023-01-17
+&gender=on
+&dogs=on
