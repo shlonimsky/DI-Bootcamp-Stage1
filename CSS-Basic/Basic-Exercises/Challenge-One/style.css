@@ -1,0 +1,13 @@
+body{
+    background-color: lightskyblue;
+}
+ul{
+    list-style: none;
+    text-align: center;
+    text-transform:capitalize 1;
+    font-family: 'Segoe UI', Geneva, Verdana, sans-serif;
+}
+ul>::first-letter
+{
+    font-size: 23px;
+}

@@ -1,0 +1,25 @@
+/* selector{
+    property: value;
+} */
+
+body {
+    background-image: url(background_home.jpeg);
+    background-size: cover;
+}
+h2 {
+    color: rgb(221, 185, 126);
+    text-align: center;
+    border: 5px solid #FFE3AA;
+    cursor: pointer;
+}
+
+p {
+    color: rgb(221, 185, 126);
+background-color: rgb(6, 14, 102, 0.3);
+text-transform: capitalize
+;
+}
+li {
+    list-style: none;
+    display: inline-block;
+}
