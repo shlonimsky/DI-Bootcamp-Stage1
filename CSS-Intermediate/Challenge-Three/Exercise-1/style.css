@@ -1,0 +1,32 @@
+body{
+    border: 3px solid;
+    margin: 50px;
+    text-align: center;
+    }
+
+    header{
+        border: 3px solid;
+    }
+    
+    p{
+        border: 3px solid;
+    }
+    div{
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    p.red-block{
+        background-color: crimson;
+        width: 50px;
+    }
+
+    p.blue-block{
+        background-color:cornflowerblue;
+        width: 200px;
+    }
+
+    footer{
+        background-color:gold;
+        border: 3px solid;
+    }
