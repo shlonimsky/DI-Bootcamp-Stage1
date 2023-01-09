@@ -1,0 +1,58 @@
+div {
+    margin:10px 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+/* Styling for class "col-4" */
+
+/* When the screen is greater than 960px */
+@media screen and (min-width:960px){
+    p.col-4 {
+        width : 33%;
+        display: inline-block;
+        background-color: aqua;
+    }}
+/* When the screen is greater than 765px */
+@media screen and (min-width: 765px) and (max-width: 960px){
+    p.col-4 {
+        width: 50%;
+        display: inline-block;
+        background-color: pink; 
+    }}
+/* When the screen is less than 765px */
+@media screen and (max-width: 765px) {
+    p.col-4 {
+        width: 100%;
+        display: inline-block;
+        background-color:lightgreen;
+    }
+}
+/* Styling for class "col-6" */
+/* When the screen is greater than 960px */
+@media screen and (min-width:960px) {
+    p.col-6 {
+        width : 50%;
+        display: inline-block;
+        background-color: aqua;
+    }
+}
+/* When the screen is less than 960px */
+@media screen and (max-width: 960px){
+    p.col-6 {
+        width: 100%;
+        display: inline-block;
+        background-color: pink;
+        
+    }
+}
+/* Styling for class "col-6" */
+@media screen {
+        p.col-12{
+            width: 100%;
+            background-color: aqua;
+    }}
+
+
+

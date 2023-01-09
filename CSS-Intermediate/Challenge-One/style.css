@@ -1,0 +1,32 @@
+body{
+    background-color: #162756;
+    margin: 0px;
+}
+#wrap{
+    display: flex;
+    justify-content: center;
+    width: 1200px;
+    font-size: 120%;
+
+}
+#nav{
+    background-color: #7986AC;
+    float: left;
+    text-align: center;
+    width: 325;
+    margin-left: 15vw;
+}
+#content{
+    background-color: #4F608F;
+    text-align: center;
+}
+#content>ul{
+    list-style: none;
+}
+
+p.copyright{
+    background-color: #162756;
+    position: absolute;
+    width: 800px
+;
+}
